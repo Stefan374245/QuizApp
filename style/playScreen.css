@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(#000000, #0d1357) !important;
+  font-family: "Rubik", serif;
+  font-weight: 400;
+}
+
+.container-fluid img {
+  width: 56px;
+  filter: invert(1);
+}
+
+.main-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.progress {
+  background-color: rgba(14, 247, 212, 0.829) !important;
+}
+
+.card-title {
+  font-family: "Rubik", serif;
+  font-weight: 600;
+}
+
+.quiz-card {
+  margin: 32px;
+  width: 560px;
+  border-color: #121a6f !important;
+  border-radius: 10px !important;
+}
+
+.card-answer-section {
+  cursor: pointer;
+  transition: ease-out 0.1s;
+}
+
+.card-answer-section:hover {
+  background-color: rgba(14, 247, 212, 0.144);
+  transform: scale(1.01);
+}
+
+.answerOportunity {
+  display: flex;
+  align-items: center;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
+  padding-top: 12px;
+}
+
+.bg-success,
+.bg-danger {
+  color: white !important;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .quiz-card {
+    margin: 5px;
+    height: 80vh !important;
+   
+  }
+}

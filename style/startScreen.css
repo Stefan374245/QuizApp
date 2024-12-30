@@ -1,0 +1,61 @@
+.start-screen-left {
+  background-color: #0d1357 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  gap: 20px;
+}
+
+.start-card {
+  width: 100% !important;
+  padding: 40px;
+}
+
+.start-screen-left :last-child {
+  margin-bottom: 96px;
+}
+
+.start-card-right-side {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: url(/assets/icons/brainbg.jpg) no-repeat center;
+  background-size: cover;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.start-game-btn {
+  position: absolute;
+  bottom: 56px;
+  right: 56px;
+  color: #0d1357 !important;
+  border-color: #0d1357 !important;
+  background-color: rgba(14, 247, 212, 0.247)!important;
+  transition: ease-in 0.2s !important;
+}
+
+.start-game-btn:hover {
+  background-color: #0d1357 !important;
+  color: white !important;
+  border-color: rgba(14, 247, 212, 0.247) !important;
+}
+
+@media (max-width: 768px) {
+  .start-game-btn {
+    bottom: 20px;
+    right: 39%;
+  }
+  .start-screen-left {
+    border-radius: 10px;
+  }
+}

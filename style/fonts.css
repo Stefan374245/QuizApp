@@ -1,0 +1,18 @@
+.answerOportunity span {
+    font-family: "Rubik", serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 0px 13px;
+    margin: 8px 8px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.start-screen-left span {
+    color: white;
+}
+.start-screen-left span:hover {
+    color: rgb(177, 22, 22);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
